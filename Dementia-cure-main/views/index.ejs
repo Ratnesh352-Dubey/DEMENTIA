@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="/index_style.css" type="text/css"/> -->
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#nav{
+    background-color: #176B87 ;
+    padding:15px;
+    font-size: 10px;   
+    display:flex;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+   
+
+  } 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+    body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    overflow: auto;
+    }
+
+    .topnav {
+    overflow: hidden;
+    background-color: #176B87;
+    }
+
+    .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .topnav a.active {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .topnav .icon {
+    display: none;
+    }
+
+    
+    #title{
+        position:absolute;
+        font-size: larger;
+        top:30%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #title a{
+        text-decoration:none !important ;
+    }
+    #title a:hover{
+        text-decoration: underline!important;
+        
+    }
+
+    #img{
+      background-image:url('https://plus.unsplash.com/premium_photo-1664475537157-758d3ed52a4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80');
+      height: 600px;
+      background-repeat: no-repeat;
+      background-origin: content-box;
+      background-size: cover;
+    }
+    
+
+    
+.centered-text {
+  text-align: center;
+  position: absolute;
+  font-size: larger;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Set the text color to white */
+}
+.centered-text h1{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px; /* Add some spacing */
+  height:300px;
+}
+.login{
+  /* border: 2px solid black; */
+  /* background-color: #ddd; */
+  /* display: inline-block; */
+  margin-left: 90%;
+  text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+}
+.login:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1; /* To evenly space the cards */
+  margin: 10px;
+  text-align: center;
+}
+footer{
+  background-color: #176B87;
+  padding: 0% 50%;
+}
+
+    @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) { display: none; }
+      .topnav a.icon { float: right; display: block; }
+      .centered-text { top: 60%; }
+      .card-container { flex-direction: column; align-items: center; }
+      .card { flex: none; width: 80%; }
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /* .login{
+      margin-left: 6%;
+  text-align: center;
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+    /* font-size: 17px; */
+    } */
+    
+    
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+      <a href="/index" class="active">Home</a>
+      <a href="/select">Mental Exercises</a>
+      <a href="/contact">Offline Help</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        <!-- <a href="/login">Login/Signup</a> -->
+        <!-- <div class="login">
+          <a href="login.html">Login/Signup</a>
+        </div> -->
+      </a>
+  </div>
+
+  <div id="img">
+    <div id="img-txt" class="centered-text">
+      <h2>Welcome to DemenCure!</h2>
+      <p>Please fill out the below form to proceed-</p>
+      <a href="/analysis" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" target="_blank">Click Here</a>
+    </div>
+    
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <h3>Information and Guide for Caregivers </h3>&#10084;
+      <a href="//info">Have a Dementia Patient at Home?
+         Click Here
+        </a>
+    </div>
+    <div class="card">
+      <h3>Mental Games/Quizzes for Patients</h3>	&#129504;
+      <p>Mental exercises are crucial for dementia patients because they provide cognitive stimulation, help retain memory, improve mood, promote social interaction, delay cognitive decline, enhance problem-solving skills, reduce stress, offer a sense of accomplishment, and may delay institutionalization.</p>
+      
+    </div>
+    <div class="card">
+      <h3>Patients Information</h3>
+      <p>Content for Card 3</p>
+    </div>
+  </div>
+  <footer>Dementia MiniProject</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
