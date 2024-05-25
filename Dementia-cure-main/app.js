@@ -10,7 +10,6 @@ const { result } = require('lodash');
 const UserModel = require('./models/login_signup');
 const path = require('path')
 
-
 const app = express()
 
 // const dbURI= 'mongodb+srv://Chinmay:test1234@cluster0.s3maqiv.mongodb.net/?retryWrites=true&w=majority'
